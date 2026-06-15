@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: siteTitle,
-    template: "%s | 안양강아지파양",
+    template: "%s | 울산강아지파양",
   },
   description: siteDescription,
-  keywords: [...targetKeywords, "안양 강아지 파양", "안양 유기견", "아가펫"],
+  keywords: [...targetKeywords, "울산 강아지 파양", "울산 유기견", "아가펫"],
   authors: [{ name: "아가펫" }],
   creator: "아가펫",
   publisher: "아가펫",
@@ -34,15 +34,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ko_KR",
     url: siteUrl,
-    siteName: "안양강아지파양 · 안양유기견보호소 안내",
+    siteName: "울산강아지파양 · 울산유기견보호소 안내",
     title: siteTitle,
     description: siteDescription,
     images: [
       {
-        url: "/images/shelter-01.jpg",
+        url: "/images/shelter-01.png",
         width: 1200,
         height: 630,
-        alt: "안양강아지파양·안양유기견보호소 보호소 전경",
+        alt: "울산강아지파양·울산유기견보호소 보호소 전경",
       },
     ],
   },
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
-    images: ["/images/shelter-01.jpg"],
+    images: ["/images/shelter-01.png"],
   },
   alternates: {
     canonical: siteUrl,
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   category: "반려동물",
   verification: {
     other: {
-      "naver-site-verification": "530409071aa08b3d4f3881710a714d3633b5c550",
+      "naver-site-verification": "c151c15d347207e0ea6fdb5db02cb092acb5fe91",
     },
   },
 };
