@@ -1,20 +1,20 @@
-export const siteUrl = "https://busan.vercel.app";
+export const siteUrl = "https://taean.vercel.app";
 
 export const targetKeywords = [
-  "부산강아지파양",
-  "부산강아지보호소",
-  "부산유기견보호소",
-  "부산유기견센터",
-  "부산유기견보호센터",
+  "태안강아지파양",
+  "태안강아지보호소",
+  "태안유기견보호소",
+  "태안유기견센터",
+  "태안유기견보호센터",
   "강아지무료분양",
   "유기동물보호소",
 ] as const;
 
 export const siteTitle =
-  "부산강아지파양 | 부산유기견보호소·부산강아지보호소 전문 안내";
+  "태안강아지파양 | 태안유기견보호소·태안강아지보호소 전문 안내";
 
 export const siteDescription =
-  "부산강아지파양·부산강아지보호소·부산유기견보호소 전문 상담센터입니다. 부산유기견센터·부산유기견보호센터 연계, 강아지무료분양·유기동물보호소 입양 안내. 전화 0505-707-0401";
+  "태안강아지파양·태안강아지보호소·태안유기견보호소 전문 상담센터입니다. 태안유기견센터·태안유기견보호센터 연계, 강아지무료분양·유기동물보호소 입양 안내. 전화 0505-707-0401";
 
 export function getStructuredData() {
   return {
@@ -24,21 +24,21 @@ export function getStructuredData() {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "부산강아지파양 안내",
+        name: "태안강아지파양 안내",
         description: siteDescription,
         inLanguage: "ko-KR",
       },
       {
         "@type": "AnimalShelter",
         "@id": `${siteUrl}/#organization`,
-        name: "부산강아지파양 · 부산유기견보호센터",
+        name: "태안강아지파양 · 태안유기견보호센터",
         url: siteUrl,
         description:
-          "부산강아지보호소 및 부산유기견보호소 전문 상담. 부산유기견센터 연계 파양·강아지무료분양·유기동물보호소 안내.",
+          "태안강아지보호소 및 태안유기견보호소 전문 상담. 태안유기견센터 연계 파양·강아지무료분양·유기동물보호소 안내.",
         telephone: "0505-707-0401",
         areaServed: {
           "@type": "City",
-          name: "부산광역시",
+          name: "충청남도 태안군",
         },
         knowsAbout: [...targetKeywords],
       },
@@ -48,18 +48,18 @@ export function getStructuredData() {
         mainEntity: [
           {
             "@type": "Question",
-            name: "부산강아지파양은 어떤 경우에 이용하나요?",
+            name: "태안강아지파양은 어떤 경우에 이용하나요?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "이사, 알레르기, 경제적 사정 등 부득이한 사유로 직접 돌보기 어려울 때 부산유기견보호소·부산강아지보호소 상담을 통해 이용하실 수 있습니다.",
+              text: "이사, 알레르기, 경제적 사정 등 부득이한 사유로 직접 돌보기 어려울 때 태안유기견보호소·태안강아지보호소 상담을 통해 이용하실 수 있습니다.",
             },
           },
           {
             "@type": "Question",
-            name: "부산유기견센터와 부산유기견보호센터 차이는 무엇인가요?",
+            name: "태안유기견센터와 태안유기견보호센터 차이는 무엇인가요?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "부산유기견센터는 유기견 통합 관리 기관이며, 부산유기견보호센터는 실제 보호·케어 시설입니다. 본 센터는 두 기관과 연계해 파양·입양을 안내합니다.",
+              text: "태안유기견센터는 유기견 통합 관리 기관이며, 태안유기견보호센터는 실제 보호·케어 시설입니다. 본 센터는 두 기관과 연계해 파양·입양을 안내합니다.",
             },
           },
           {
