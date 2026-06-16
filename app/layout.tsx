@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: siteTitle,
-    template: "%s | 서산강아지파양",
+    template: "%s | 광명강아지파양",
   },
   description: siteDescription,
-  keywords: [...targetKeywords, "서산 강아지 파양", "서산 유기견", "아가펫"],
+  keywords: [...targetKeywords, "광명 강아지 파양", "광명 유기견", "아가펫"],
   authors: [{ name: "아가펫" }],
   creator: "아가펫",
   publisher: "아가펫",
@@ -34,15 +34,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ko_KR",
     url: siteUrl,
-    siteName: "서산강아지파양 · 서산유기견보호소 안내",
+    siteName: "광명강아지파양 · 광명유기견보호소 안내",
     title: siteTitle,
     description: siteDescription,
     images: [
       {
-        url: "/images/shelter-01.jpg",
+        url: "/images/shelter-01.png",
         width: 1200,
         height: 630,
-        alt: "서산강아지파양·서산유기견보호소 보호소 전경",
+        alt: "광명강아지파양·광명유기견보호소 보호소 전경",
       },
     ],
   },
@@ -50,17 +50,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
-    images: ["/images/shelter-01.jpg"],
+    images: ["/images/shelter-01.png"],
   },
   alternates: {
     canonical: siteUrl,
   },
   category: "반려동물",
-  verification: {
-    other: {
-      "naver-site-verification": "206c939dd465e20429f091575f34d74031d74a5e",
-    },
-  },
 };
 
 export default function RootLayout({
