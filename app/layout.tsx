@@ -56,6 +56,11 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   category: "반려동물",
+  verification: {
+    other: {
+      "naver-site-verification": "d6c8af4350ee92ace4e581ac757d987c333478da",
+    },
+  },
 };
 
 export default function RootLayout({
